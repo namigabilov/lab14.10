@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+#header{
+    padding: 30px 0;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+#header .logo{
+    padding-left: 8rem;
+}
+#header .logo a{
+    float: left;
+    color: #000;
+}
+#header .navigation{
+    padding-right: 8rem;
+}
+#header .navigation a{
+    float: right;
+    color: #000;
+    margin-left: 30px;
+}
+#first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+    padding: 13rem 0;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    text-align: center;
+}
+#first h1{
+    font-size: 80px;
+}
+#first span{
+    font-size: 24px;
+}
+#second{
+    padding: 3rem 0;
+    width: 30%;
+    margin: auto;
+}
+#second p{
+    margin-top: 15px;
+}
+#second  a{
+    color: #000;
+}
+#second .hover a:hover{
+    color: #0085A1;
+}
+#second h2:hover{
+color: #0085A1;
+}
+#second h3:hover{
+    color: #0085A1;
+    }
+#second hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#second h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+#second h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+}
+#second .btn{
+    float: right;
+    padding: 7px 14px;
+    background-color: #0085A1;
+    color: #fff;
+}
+#third{
+    padding: 3rem 0;
+}
+#third h5{
+    text-align: center;
+}
