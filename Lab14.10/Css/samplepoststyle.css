@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+#header {
+    padding: 30px 0;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+#header .logo {
+    padding-left: 8rem;
+}
+#header .logo a {
+    float: left;
+    color: #fff;
+}
+#header .navigation {
+    padding-right: 8rem;
+}
+#header .navigation a {
+    float: right;
+    color: #fff;
+    margin-left: 30px;
+}
+#first {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/post-bg.jpg");
+    padding: 15rem 0;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    text-align: center;
+}
+#first h1 {
+    font-size: 60px;
+    color: #fff;
+}
+#first span {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+#first p{
+    font-size: 20px;
+   color: #fff;
+   font-weight: 600;
+}
+#first a{
+    color: #fff;
+    font-weight: 100;
+}
+#sample{
+    width: 55%;
+    margin: auto;
+    padding: 4rem;
+    font-size: 25px;
+    font-weight: 500;
+}
+#sample h1{
+    padding: 2rem 0;
+}
+#sample img{
+    padding: 1rem 0;
+}
+#sample a{
+    text-decoration: underline;
+}
+#third {
+    padding: 3rem 0;
+}
+#third h5 {
+    font-size: 20px;
+    text-align: center;
+}
